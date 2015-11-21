@@ -42,7 +42,7 @@ define('PMT_MSGBOX', 'INBOX');
 // Username and password
 define('PMT_USER', '');
 define('PMT_PASWORD', '');
-
+```
 
 ### Kanboard configuration
 
