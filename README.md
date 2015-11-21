@@ -17,6 +17,7 @@ Installation
 
 - Create a folder **plugins/Pullmailtasks**
 - Copy all files under this directory
+- php-imap extension required
 
 Use your IMAP Mail account to create tasks
 -------------------------------------------
@@ -37,4 +38,4 @@ define('PMT_PASWORD', '');
 2. Assign a project identifier to the desired projects: **Project settings > Edit**
 3. Try to send an email to your project: kanboard+myprojectid:taskname@mydomain.tld
 
-The sender email address must be same as the user profile in Kanboard and the user must be member of the project.
+The mailbox email address must be same as the user profile in Kanboard and the user must be member of the project.
