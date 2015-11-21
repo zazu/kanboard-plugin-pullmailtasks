@@ -38,6 +38,6 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://github.com/zazu/kanboard-plugin-pullmailtasks';
+        return 'https://github.com/zazu/kanboard-plugin-pullmailtask';
     }
 }
