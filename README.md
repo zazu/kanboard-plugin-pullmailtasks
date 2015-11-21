@@ -18,6 +18,7 @@ Installation
 - Create a folder **plugins/Pullmailtasks**
 - Copy all files under this directory
 - php-imap extension required
+- setup a cron job to call the URL to pull mail task (http://name.tld/kanboard/?controller=Webhook&action=pullmail&plugin=Pullmailtasks)
 
 Use your IMAP Mail account to create tasks
 -------------------------------------------
@@ -37,5 +38,6 @@ define('PMT_PASWORD', '');
 1. Be sure that your users have an email address in their profiles
 2. Assign a project identifier to the desired projects: **Project settings > Edit**
 3. Try to send an email to your project: kanboard+myprojectid:taskname@mydomain.tld
+4. Pull mail by calling http://name.tld/kanboard/?controller=Webhook&action=pullmail&plugin=Pullmailtasks
 
 The mailbox email address must be same as the user profile in Kanboard and the user must be member of the project.
