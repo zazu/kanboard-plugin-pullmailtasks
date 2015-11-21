@@ -15,6 +15,7 @@ defined('PMT_PASWORD') or define('PMT_PASWORD', '');
  * Pull Mail Tasks
  *
   * @author   Ralf Blumenthal
+  * @author   Frédéric Guillot
  */
 class EmailHandler extends Base
 {
@@ -69,6 +70,7 @@ class EmailHandler extends Base
      *
      * @access public
      * @param  array   $payload   Incoming email
+     * @author   Frédéric Guillot
      * @return boolean
      */
     public function receiveEmail(array $payload)
