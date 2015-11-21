@@ -1,5 +1,6 @@
-Pullmail plugin for Kanboard (Based on Mailgun Plugin)
+Pullmail plugin for Kanboard
 ============================
+(Based on Mailgun Plugin)
 
 Use your IMAP Mail account to create tasks directly by email
 
